@@ -19,7 +19,7 @@ Contexto:
             Então deve exibir a <mensagem> de alerta
 
             Exemplos:
-            | Nome          | Sobrenome  | País     | Endereço   | Cidade     | CEP        | Telefone     | E-mail              | Mensagem |
-            | "Christopher" | "Pereira"  | "Brasil" | "X"        | "Curitiba" | "1111-111" | "9123-45678" | "chris@ebac.com.br" | "Alerta" |
-            | "Leticia"     | "Monteiro" | "Brasil" | "Rua X, 6" | "Curitiba" | "X"        | "9123-45679" | "let@ebac.com.br"   | "Alerta" |
-            | "Sofia"       | "Silva"    | "Brasil" | "X"        | "Curitiba" | "1111-111" | X            | "sofia@ebac.com.br" | "Alerta" |
+            | Nome        | Sobrenome | País   | Endereço | Cidade   | CEP      | Telefone   | E-mail            | Mensagem                      |
+            | Christopher | Pereira   | Brasil |          | Curitiba | 1111-111 | 9123-45678 | chris@ebac.com.br | "Dados obrigatórios em falta" |
+            | Leticia     | Monteiro  | Brasil | Rua X, 6 | Curitiba |          | 9123-45679 | let@ebac.com.br   | "Dados obrigatórios em falta" |
+            | Sofia       |           | Brasil |          | Curitiba | 1111-111 |            | sofia@ebac.com.br | "Dados obrigatórios em falta" |
